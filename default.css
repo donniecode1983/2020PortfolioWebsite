@@ -36,6 +36,10 @@ p,li,span,label,input,textarea {
     color: var(--secondaryText);
 }
 
+ul {
+    list-style: none;
+}
+
 .s1 {
     background: var(--mainColor);
     border-bottom: 1px solid var(--borderColor);
