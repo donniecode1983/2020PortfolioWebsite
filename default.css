@@ -68,6 +68,14 @@ ul {
     min-height: 10em;
 }
 
+.intro-wrapper {
+    background: var(--secondaryColor);
+    border: 1px solid var(--borderColor);
+    -webkit-box-shadow: 10px 18px 22px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 18px 22px -3px rgba(0,0,0,0.75);
+    box-shadow: 10px 18px 22px -3px rgba(0,0,0,0.75);
+}
+
 
 @media screen and (max-width: 1200px){
     .main-container {
