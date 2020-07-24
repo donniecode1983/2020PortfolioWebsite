@@ -7,6 +7,8 @@
     --mainText: black;
     --secondaryText: #fb5156;
 
+    --linkColor1: #17a2b8;
+
 }
 
 html, body {
@@ -20,6 +22,7 @@ h1,h2,h3,h4,h5,h6,strong {
 
 a {
     text-decoration: none;
+    color: var(--linkColor1)
 }
 
 h1 {font-size: 56px;}
